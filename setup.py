@@ -10,7 +10,7 @@ setup(
     name='cattrs_basemodel',
     version='1.0',
     author='dail45',
-    description='TBaseModel for cattrs package which provide (un)structure methods to your models',
+    description='BaseModel for cattrs package which provide (un)structure methods to your models',
     long_description=readme(),
     long_description_content_type='text/markdown',
     packages=find_packages(),
