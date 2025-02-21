@@ -10,7 +10,7 @@ setup(
     name='cattrs_basemodel',
     version='1.0',
     author='dail45',
-    description='BaseModel for cattrs package which provide (un)structure methods to your models',
+    description='g',
     long_description=readme(),
     long_description_content_type='text/markdown',
     packages=find_packages(),
@@ -21,5 +21,8 @@ setup(
         'Operating System :: OS Independent'
     ],
     keywords='attrs cattrs basemodel json serialize deserialize',
-    python_requires='>=3.6'
+    python_requires='>=3.6',
+    requires=[
+        "cattrs"
+    ]
 )
